@@ -22,7 +22,7 @@ const extendedThemeConfig: ThemeConfig = {
 };
 
 const fonts = {
-  heading: `'Poppins', sans-serif`,
+  heading: `'Oswald', sans-serif`,
   body: `'Poppins', sans-serif`,
 };
 

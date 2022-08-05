@@ -2,9 +2,11 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import Footer from "../components/Footer";
+import Home from "../components/Home";
+import Layout from "../components/Layout";
 import Navbar from "../components/Navbar";
 
-const Home: NextPage = () => {
+const App: NextPage = () => {
   return (
     <div>
       <Head>
@@ -13,11 +15,15 @@ const Home: NextPage = () => {
       </Head>
       <Navbar />
 
-      <main className="w-screen h-screen overflow-y-auto"></main>
+      <main className="w-full h-screen overflow-y-auto flex justify-center">
+        <Layout>
+          <Home />
+        </Layout>
+      </main>
 
       <Footer />
     </div>
   );
 };
 
-export default Home;
+export default App;

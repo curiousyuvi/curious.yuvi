@@ -17,8 +17,8 @@ const Projects = () => {
           poster="/compifly.png"
           title="COMPIFLY"
           description="A social media app for technologist competitive programmers."
-          deployment=""
-          github=""
+          deployment="https://compifly.vercel.app/"
+          github="https://github.com/curiousyuvi/compifly"
         />
         <span className="my-8" />
         <ProjectsItem
@@ -26,8 +26,8 @@ const Projects = () => {
           poster="/curie.png"
           title="CURIE"
           description="An app for chatting and vibing on synced music with your gang."
-          deployment=""
-          github=""
+          deployment="https://curie-beta.herokuapp.com"
+          github="https://github.com/curiousyuvi/curie"
           reverse
         />
       </div>
@@ -70,17 +70,23 @@ const ProjectsItem = ({
         <Text className="opacity-80 text-sm">{description}</Text>
         <span className="my-1" />
         <div className="flex">
-          <Button bgColor="green.500" textColor="white">
-            {title}
-          </Button>
+          <a href={deployment} target="_blank" rel="noreferrer">
+            <Button bgColor="green.500" textColor="white">
+              {title}
+            </Button>
+          </a>
+
           <span className="mx-2" />
-          <Button
-            variant="outline"
-            borderColor="green.500"
-            textColor="green.500"
-          >
-            GITHUB
-          </Button>
+
+          <a href={github} target="_blank" rel="noreferrer">
+            <Button
+              variant="outline"
+              borderColor="green.500"
+              textColor="green.500"
+            >
+              GITHUB
+            </Button>
+          </a>
         </div>
       </div>
     </div>

@@ -41,16 +41,16 @@ const DesktopNavbar = () => {
             <Text className="cursor-pointer text-sm lg:text-base">SKILLS</Text>
           </ScrollIntoView>
           <span className="mx-2 md:mx-4" />
-          <Button bgColor="green.500" textColor="white">
-            <a
-              href={resumeURL}
-              target="_blank"
-              rel="noreferrer"
-              className="text-sm lg:text-base"
-            >
+          <a
+            href={resumeURL}
+            target="_blank"
+            rel="noreferrer"
+            className="text-sm lg:text-base"
+          >
+            <Button bgColor="green.500" textColor="white">
               RESUME
-            </a>
-          </Button>
+            </Button>
+          </a>
         </div>
       </div>
     </div>

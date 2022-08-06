@@ -16,7 +16,7 @@ const Projects = () => {
           type="NEXT-JS APP"
           poster="/compifly.png"
           title="COMPIFLY"
-          description="A social media app for technologist competitive programmers."
+          description="A social media app for 🧑‍💻 competitive programmers."
           deployment="https://compifly.vercel.app/"
           github="https://github.com/curiousyuvi/compifly"
         />
@@ -25,7 +25,7 @@ const Projects = () => {
           type="MERN APP"
           poster="/curie.png"
           title="CURIE"
-          description="An app for chatting and vibing on synced music with your gang."
+          description="An app for 💬 chatting and 🎧️ vibing on synced music with your gang."
           deployment="https://curie-beta.herokuapp.com"
           github="https://github.com/curiousyuvi/curie"
           reverse

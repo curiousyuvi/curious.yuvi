@@ -2,6 +2,7 @@ import { Heading, Text } from "@chakra-ui/react";
 import Image from "next/image";
 import React from "react";
 import Typical from "react-typical";
+import Socials from "./Socials";
 
 const Home = () => {
   return (
@@ -35,6 +36,8 @@ const Home = () => {
         <Text className="opacity-70">
           {"Wanna tak about tech? I'm all ears"}
         </Text>
+        <span className="my-4" />
+        <Socials />
       </div>
       <div className="hidden sm:flex">
         <Image src="/yuvraj.png" alt="" height={500} width={500} />

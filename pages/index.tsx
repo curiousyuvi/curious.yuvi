@@ -15,7 +15,7 @@ const App: NextPage = () => {
       </Head>
       <Navbar />
 
-      <main className="w-full h-screen overflow-y-auto flex justify-center">
+      <main className="w-full min-h-screen flex justify-center">
         <Layout>
           <Home />
         </Layout>

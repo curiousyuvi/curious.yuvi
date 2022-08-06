@@ -6,7 +6,7 @@ import { resumeURL } from "../constants";
 const DesktopNavbar = () => {
   return (
     <div
-      className={`hidden sm:flex w-full justify-center items-center backdrop-blur fixed ${useColorModeValue(
+      className={`hidden sm:flex w-full justify-center items-center backdrop-blur fixed z-10 ${useColorModeValue(
         "bg-emerald-500/10",
         "bg-white/10"
       )}`}

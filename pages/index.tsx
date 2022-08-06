@@ -1,6 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import AboutMe from "../components/AboutMe";
 import Footer from "../components/Footer";
 import Home from "../components/Home";
 import Layout from "../components/Layout";
@@ -18,6 +19,7 @@ const App: NextPage = () => {
       <main className="w-full min-h-screen flex justify-center">
         <Layout>
           <Home />
+          <AboutMe />
         </Layout>
       </main>
 

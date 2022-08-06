@@ -18,7 +18,7 @@ const MobileNavbar = () => {
   return (
     <>
       <div
-        className={`sm:hidden w-full flex justify-center items-center p-2 backdrop-blur fixed ${useColorModeValue(
+        className={`sm:hidden w-full flex justify-center items-center p-2 backdrop-blur fixed z-10 ${useColorModeValue(
           "bg-emerald-500/10",
           "bg-white/10"
         )}`}
@@ -29,7 +29,7 @@ const MobileNavbar = () => {
       </div>
 
       <div
-        className={`sm:hidden w-full flex justify-evenly items-center p-2 py-4 backdrop-blur fixed bottom-0 ${useColorModeValue(
+        className={`sm:hidden w-full flex justify-evenly items-center p-2 py-4 backdrop-blur fixed z-10 bottom-0 ${useColorModeValue(
           "bg-emerald-500/10",
           "bg-white/10"
         )}`}

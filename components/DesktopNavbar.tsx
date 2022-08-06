@@ -20,19 +20,19 @@ const DesktopNavbar = () => {
           <ScrollIntoView selector="#home">
             <Text className="cursor-pointer">HOME</Text>
           </ScrollIntoView>
-          <span className="mx-3" />
+          <span className="mx-4" />
           <ScrollIntoView selector="#projects">
             <Text className="cursor-pointer">PROJECTS</Text>
           </ScrollIntoView>
-          <span className="mx-3" />
+          <span className="mx-4" />
           <ScrollIntoView selector="#education">
             <Text className="cursor-pointer">EDUCATION</Text>
           </ScrollIntoView>
-          <span className="mx-3" />
+          <span className="mx-4" />
           <ScrollIntoView selector="#skills">
             <Text className="cursor-pointer">SKILLS</Text>
           </ScrollIntoView>
-          <span className="mx-3" />
+          <span className="mx-4" />
           <Button bgColor="green.500" textColor="white">
             <a href={resumeURL} target="_blank" rel="noreferrer">
               RESUME

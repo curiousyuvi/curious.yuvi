@@ -18,23 +18,36 @@ const DesktopNavbar = () => {
         </Heading>
         <div className="flex items-center font-bold">
           <ScrollIntoView selector="#home">
-            <Text className="cursor-pointer">HOME</Text>
+            <Text className="cursor-pointer text-sm lg:text-base">HOME</Text>
           </ScrollIntoView>
-          <span className="mx-4" />
+          <span className="mx-2 md:mx-4" />
+          <ScrollIntoView selector="#about-me">
+            <Text className="cursor-pointer text-sm lg:text-base">ABOUT</Text>
+          </ScrollIntoView>
+          <span className="mx-2 md:mx-4" />
           <ScrollIntoView selector="#projects">
-            <Text className="cursor-pointer">PROJECTS</Text>
+            <Text className="cursor-pointer text-sm lg:text-base">
+              PROJECTS
+            </Text>
           </ScrollIntoView>
-          <span className="mx-4" />
+          <span className="mx-2 md:mx-4" />
           <ScrollIntoView selector="#education">
-            <Text className="cursor-pointer">EDUCATION</Text>
+            <Text className="cursor-pointer text-sm lg:text-base">
+              EDUCATION
+            </Text>
           </ScrollIntoView>
-          <span className="mx-4" />
+          <span className="mx-2 md:mx-4" />
           <ScrollIntoView selector="#skills">
-            <Text className="cursor-pointer">SKILLS</Text>
+            <Text className="cursor-pointer text-sm lg:text-base">SKILLS</Text>
           </ScrollIntoView>
-          <span className="mx-4" />
+          <span className="mx-2 md:mx-4" />
           <Button bgColor="green.500" textColor="white">
-            <a href={resumeURL} target="_blank" rel="noreferrer">
+            <a
+              href={resumeURL}
+              target="_blank"
+              rel="noreferrer"
+              className="text-sm lg:text-base"
+            >
               RESUME
             </a>
           </Button>

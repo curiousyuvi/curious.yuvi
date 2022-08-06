@@ -19,7 +19,7 @@ const Home = () => {
               steps={[
                 "FULL-STACK APP DEVELOPER",
                 3000,
-                "GRAPHIC DESIGNER",
+                "GRAPHIC & UI DESIGNER",
                 3000,
                 "COMPETITIVE PROGRAMMER",
                 3000,

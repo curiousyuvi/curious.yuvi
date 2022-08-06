@@ -7,7 +7,7 @@ import {
 import Link from "next/link";
 import React from "react";
 import { AiFillHome } from "react-icons/ai";
-import { RiDashboardFill } from "react-icons/ri";
+import { RiDashboardFill, RiInformationFill } from "react-icons/ri";
 import { BsBookHalf } from "react-icons/bs";
 import { DiGhostSmall } from "react-icons/di";
 import { FaCode } from "react-icons/fa";
@@ -36,6 +36,9 @@ const MobileNavbar = () => {
       >
         <ScrollIntoView selector="#home">
           <AiFillHome className="text-2xl" />
+        </ScrollIntoView>
+        <ScrollIntoView selector="#about-me">
+          <RiInformationFill className="text-2xl" />
         </ScrollIntoView>
         <ScrollIntoView selector="#projects">
           <RiDashboardFill className="text-2xl" />

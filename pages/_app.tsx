@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import { ChakraProvider } from "@chakra-ui/react";
 import Head from "next/head";
 import "@fontsource/oswald";
+import "@fontsource/raleway";
 import "@fontsource/poppins";
 import useExtendedTheme from "../hooks/useExtendedTheme";
 

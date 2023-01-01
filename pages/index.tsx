@@ -8,6 +8,7 @@ import Home from "../components/Home";
 import Layout from "../components/Layout";
 import Navbar from "../components/Navbar";
 import Projects from "../components/Projects";
+import Resume from "../components/Resume";
 import Skills from "../components/Skills";
 
 const App: NextPage = () => {
@@ -26,6 +27,7 @@ const App: NextPage = () => {
           <Projects />
           <Education />
           <Skills />
+          <Resume />
         </Layout>
       </main>
 

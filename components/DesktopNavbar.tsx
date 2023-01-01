@@ -1,4 +1,5 @@
 import { Button, Heading, Text, useColorModeValue } from "@chakra-ui/react";
+import Link from "next/link";
 import React from "react";
 import ScrollIntoView from "react-scroll-into-view";
 import { resumeURL } from "../constants";
@@ -41,16 +42,11 @@ const DesktopNavbar = () => {
             <Text className="cursor-pointer text-sm lg:text-base">SKILLS</Text>
           </ScrollIntoView>
           <span className="mx-2 md:mx-4" />
-          <a
-            href={resumeURL}
-            target="_blank"
-            rel="noreferrer"
-            className="text-sm lg:text-base"
-          >
+          <ScrollIntoView selector="#resume">
             <Button bgColor="green.500" textColor="white">
               RESUME
             </Button>
-          </a>
+          </ScrollIntoView>
         </div>
       </div>
     </div>

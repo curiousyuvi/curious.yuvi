@@ -50,9 +50,9 @@ const MobileNavbar = () => {
           <FaCode className="text-2xl" />
         </ScrollIntoView>
         <Button bgColor="green.500" textColor="white">
-          <a href={resumeURL} target="_blank" rel="noreferrer">
+          <ScrollIntoView selector="#resume">
             <DiGhostSmall className="text-2xl" />
-          </a>
+          </ScrollIntoView>
         </Button>
       </div>
     </>

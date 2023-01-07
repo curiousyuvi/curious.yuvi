@@ -8,7 +8,7 @@ const Resume = () => {
   const resumePrintRef = useRef(null);
   const handleResumePrint = useReactToPrint({
     content: () => resumePrintRef.current,
-    documentTitle: "YuvrajSinghResume",
+    documentTitle: "YuvrajSingh",
   });
   return (
     <div

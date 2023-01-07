@@ -16,14 +16,13 @@ const ResumeTopSection = ({
       </Text>
       <div className="w-full flex items-center justify-center gap-3">
         {links.map((link) => (
-          <a
+          <span
             key={link.text}
-            href={link.href}
             className="!text-emerald-700 text-xs font-extrabold font-['Poppins'] flex items-center gap-[0.20rem]"
           >
             <span className="text-base">{link.icon}</span>
-            {link.text}
-          </a>
+            <a href={link.href}>{link.text}</a>
+          </span>
         ))}
       </div>
     </div>

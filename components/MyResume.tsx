@@ -34,7 +34,7 @@ const MyResume = () => {
             {
               text: "Portfolio",
               icon: <BsPersonFill />,
-              href: "https://curiousyuvi.vercel.app/",
+              href: "https://curiousyuvi.codes/",
             },
             {
               text: "Github",

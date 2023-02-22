@@ -4,7 +4,7 @@ import ResumeProjectsSection from "./ResumeProjectsSection";
 
 const ResumeRightSection = () => {
   return (
-    <div className="w-full h-full flex flex-col items-start justify-between gap-3">
+    <div className="w-full h-full flex flex-col items-start justify-start gap-5">
       <ResumeExperienceSection />
       <ResumeProjectsSection />
     </div>

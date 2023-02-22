@@ -18,6 +18,28 @@ const ResumeExperienceSection = () => {
         <Text className="!text-gray-600 text-xs !font-['Poppins']">
           December 2022-Present | Remote
         </Text>
+        <Text
+          className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
+          _before={{ content: `"•  "` }}
+        >
+          Implemented user authentication and authorization using{" "}
+          <strong>JSON Web Tokens (JWT)</strong>.
+        </Text>
+        <Text
+          className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
+          _before={{ content: `"•  "` }}
+        >
+          Implemented <strong>Redis caching</strong> in backend, resulting in an
+          overall improvement in response time by <strong>~80%</strong>.
+        </Text>
+        <Text
+          className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
+          _before={{ content: `"•  "` }}
+        >
+          Implemented <strong>email service</strong> using{" "}
+          <strong>Nodemailer</strong> and <strong>Whatsapp notification</strong>{" "}
+          service using <strong>Twilio</strong>.
+        </Text>
       </div>
       <div className="w-full flex flex-col items-start gap-1">
         <Text className="!text-gray-700 text-[0.8rem] font-extrabold">
@@ -33,7 +55,7 @@ const ResumeExperienceSection = () => {
           September 2022-November 2022 | Remote
         </Text>
         <Text
-          className="!text-gray-700 text-sm !font-['Poppins'] ml-3"
+          className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
           _before={{ content: `"•  "` }}
         >
           Implemented PDF downloadable{" "}
@@ -41,14 +63,15 @@ const ResumeExperienceSection = () => {
           with multiple style templates.
         </Text>
         <Text
-          className="!text-gray-700 text-sm !font-['Poppins'] ml-3"
+          className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
           _before={{ content: `"•  "` }}
         >
-          Created beautiful UI for pages like landing, dashboard, etc using{" "}
-          <strong>Material-UI</strong> and <strong>Framer Motion</strong>
+          Implemented <strong>API data caching</strong> using{" "}
+          <strong>TanStack React Query</strong>, resulting in a ~50% reduction
+          in network requests.
         </Text>
         <Text
-          className="!text-gray-700 text-sm !font-['Poppins'] ml-3"
+          className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
           _before={{ content: `"•  "` }}
         >
           Implemented scalable <strong>Solar Rooftop and EMI Calculator</strong>{" "}
@@ -69,21 +92,21 @@ const ResumeExperienceSection = () => {
           November 2021-December 2021 | Remote
         </Text>
         <Text
-          className="!text-gray-700 text-sm !font-['Poppins'] ml-3"
+          className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
           _before={{ content: `"•  "` }}
         >
           Implemented <strong>realtime chat feature</strong> on live lecture
           using <strong>Socket.io</strong>
         </Text>
         <Text
-          className="!text-gray-700 text-sm !font-['Poppins'] ml-3"
+          className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
           _before={{ content: `"•  "` }}
         >
           Implemented <strong>REST API data caching</strong> using{" "}
           <strong>HiveDB</strong> which improved invoke time ~40%
         </Text>
         <Text
-          className="!text-gray-700 text-sm !font-['Poppins'] ml-3"
+          className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
           _before={{ content: `"•  "` }}
         >
           Implemented <strong>course player</strong> with features like{" "}

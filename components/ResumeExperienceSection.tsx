@@ -16,7 +16,7 @@ const ResumeExperienceSection = () => {
           | BACK-END DEVELOPER INTERN
         </Text>
         <Text className="!text-gray-600 text-xs !font-['Poppins']">
-          December 2022-Present | Remote
+          December 2022-February 2023 | Remote
         </Text>
         <Text
           className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
@@ -30,7 +30,7 @@ const ResumeExperienceSection = () => {
           _before={{ content: `"•  "` }}
         >
           Implemented <strong>Redis caching</strong> in backend, resulting in an
-          overall improvement in response time by <strong>~80%</strong>.
+          overall improvement in response time by <strong>~50%</strong>.
         </Text>
         <Text
           className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
@@ -67,7 +67,7 @@ const ResumeExperienceSection = () => {
           _before={{ content: `"•  "` }}
         >
           Implemented <strong>API data caching</strong> using{" "}
-          <strong>TanStack React Query</strong>, resulting in a ~50% reduction
+          <strong>TanStack React Query</strong>, resulting in a ~70% reduction
           in network requests.
         </Text>
         <Text

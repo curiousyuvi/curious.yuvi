@@ -13,21 +13,22 @@ const Projects = () => {
       <span className="my-4" />
       <div className="w-full flex flex-col items-center">
         <ProjectsItem
+          type="MERN APP"
+          poster="/curie.png"
+          title="CURIE"
+          description="An app for 💬 chatting and 🎧️ vibing on synced music with your gang."
+          deployment="https://curie-xi.vercel.app"
+          github="https://github.com/curiousyuvi/curie"
+        />
+        <span className="my-8" />
+
+        <ProjectsItem
           type="NEXT-JS APP"
           poster="/compifly.png"
           title="COMPIFLY"
           description="A social media app for 🧑‍💻 competitive programmers."
           deployment="https://compifly.vercel.app/"
           github="https://github.com/curiousyuvi/compifly"
-        />
-        <span className="my-8" />
-        <ProjectsItem
-          type="MERN APP"
-          poster="/curie.png"
-          title="CURIE"
-          description="An app for 💬 chatting and 🎧️ vibing on synced music with your gang."
-          deployment="https://curie-beta.herokuapp.com"
-          github="https://github.com/curiousyuvi/curie"
           reverse
         />
       </div>

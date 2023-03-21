@@ -3,9 +3,9 @@ import React from "react";
 
 const ResumeProjectsSection = () => {
   return (
-    <div className="w-full flex flex-col items-start gap-2">
+    <div className="w-full flex flex-col items-start gap-3">
       <Text className="!text-gray-400 text-xl">PROJECTS</Text>
-      <div className="w-full flex flex-col items-start gap-1">
+      <div className="w-full flex flex-col items-start gap-[0.4rem]">
         <Text className="!text-gray-700 text-base font-extrabold">
           CURIE
           <a
@@ -26,7 +26,7 @@ const ResumeProjectsSection = () => {
           controlled by voting.
         </Text>
         <Text
-          className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
+          className="!text-gray-700 text-sm !font-['Poppins'] ml-3"
           _before={{ content: `"•  "` }}
         >
           Built using <strong>Next.js</strong> and written in{" "}
@@ -34,7 +34,7 @@ const ResumeProjectsSection = () => {
           <strong>TailwindCSS</strong>.
         </Text>
         <Text
-          className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
+          className="!text-gray-700 text-sm !font-['Poppins'] ml-3"
           _before={{ content: `"•  "` }}
         >
           Implemented <strong>realtime messaging and voting</strong> feature
@@ -42,14 +42,14 @@ const ResumeProjectsSection = () => {
           <strong>MongoDB</strong>.
         </Text>
         <Text
-          className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
+          className="!text-gray-700 text-sm !font-['Poppins'] ml-3"
           _before={{ content: `"•  "` }}
         >
           Implemented <strong>music player</strong> using{" "}
           <strong>Youtube iframe and search API</strong>.
         </Text>
       </div>
-      <div className="w-full flex flex-col items-start gap-1">
+      <div className="w-full flex flex-col items-start gap-[0.4rem]">
         <Text className="!text-gray-700 text-base font-extrabold">
           COMPIFLY
           <a
@@ -69,7 +69,7 @@ const ResumeProjectsSection = () => {
           A social media app for competitive programmers.
         </Text>
         <Text
-          className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
+          className="!text-gray-700 text-sm !font-['Poppins'] ml-3"
           _before={{ content: `"•  "` }}
         >
           Built using <strong>Next.js</strong> and written in{" "}
@@ -77,14 +77,14 @@ const ResumeProjectsSection = () => {
           <strong>TailwindCSS</strong> and <strong>Chakra-UI</strong>.
         </Text>
         <Text
-          className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
+          className="!text-gray-700 text-sm !font-['Poppins'] ml-3"
           _before={{ content: `"•  "` }}
         >
           Implemented <strong>ratings fetching</strong> feature from competitive
           programming websites using <strong>Web scraping</strong>.
         </Text>
         <Text
-          className="!text-gray-700 text-xs !font-['Poppins'] ml-3"
+          className="!text-gray-700 text-sm !font-['Poppins'] ml-3"
           _before={{ content: `"•  "` }}
         >
           Implemented{" "}
